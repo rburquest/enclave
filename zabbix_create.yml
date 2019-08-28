@@ -1,5 +1,5 @@
 ---
-- host: zabbix 
+- hosts: zabbix 
   tasks:    
     - name: Create a new host or update an existing host's info
       local_action:
