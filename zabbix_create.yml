@@ -5,10 +5,11 @@
     login_user: admin
     login_password: admin
     host_name: ExampleHost
+    hosts: hosts
     # visible_name: ExampleName
     description: My ExampleHost Description
-    # host_groups:
-    #   - Example group1
+    host_groups:
+       - Example group1
     #   - Example group2
     # link_templates:
      #  - Example template1
