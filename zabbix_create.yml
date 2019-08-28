@@ -1,7 +1,6 @@
 ---
-# - hosts: hosts
 - name: Create a new host or update an existing host's info
-  local_action:
+- local_action:
     module: zabbix_host
     server_url: http://129.94.2.89/zabbix
     login_user: Admin
