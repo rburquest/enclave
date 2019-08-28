@@ -4,7 +4,7 @@
     server_url: http://129.94.2.89
     login_user: admin
     login_password: admin
-    # host_name: ExampleHost
+    host_name: ExampleHost
     # visible_name: ExampleName
     description: My ExampleHost Description
     # host_groups:
