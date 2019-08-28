@@ -9,7 +9,7 @@
     # visible_name: ExampleName
     description: My ExampleHost Description
     host_groups:
-       - Example group1
+       - group1
     #   - Example group2
     # link_templates:
      #  - Example template1
