@@ -1,5 +1,5 @@
 ---
-- hosts: hosts
+# - hosts: hosts
 - name: Create a new host or update an existing host's info
   local_action:
     module: zabbix_host
