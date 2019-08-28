@@ -1,3 +1,6 @@
+---
+- hosts: hosts
+tasks:
 - name: Create a new host or update an existing host's info
   local_action:
     module: zabbix_host
@@ -5,7 +8,7 @@
     login_user: Admin
     login_password: zabbix
     host_name: ExampleHost
-    hosts: hosts
+ #   hosts: hosts
     # visible_name: ExampleName
     description: My ExampleHost Description
     host_groups:
