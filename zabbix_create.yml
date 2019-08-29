@@ -1,5 +1,5 @@
 ---
-- hosts: all 
+# hosts: all 
   tasks:    
     - name: Create a new host or update an existing host's info
       local_action:
@@ -7,8 +7,8 @@
         # server_url: http://129.94.2.89/zabbix
         # login_user: Admin
         # login_password: password
-        host_name: ExampleHost
-        hosts: hosts
+        host: ExampleHost
+        # hosts: hosts
         # visible_name: ExampleName
         description: My ExampleHost Description
         # host_groups:
@@ -18,7 +18,7 @@
          #  - Example template1
          #  - Example template2
         status: enabled
-        state: present
+        # state: present
         inventory_mode: manual
         # inventory_zabbix:
         #  tag: "{{ your_tag }}"
