@@ -6,13 +6,13 @@
         module: zabbix_host
         server_url: http://129.94.2.89/zabbix
         login_user: Admin
-        login_password: zabbix
+        login_password: password
         host_name: ExampleHost
         hosts: hosts
         # visible_name: ExampleName
         description: My ExampleHost Description
-        host_groups:
-           - group1
+        # host_groups:
+          #  - group1
         #   - Example group2
         # link_templates:
          #  - Example template1
@@ -20,7 +20,7 @@
         status: enabled
         state: present
         inventory_mode: manual
-        inventory_zabbix:
+        # inventory_zabbix:
         #  tag: "{{ your_tag }}"
         #  alias: "{{ your_alias }}"
         #  notes: "Special Informations: {{ your_informations | default('None') }}"
