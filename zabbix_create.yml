@@ -28,13 +28,13 @@
         #  site_rack: "{{ your_site_rack }}"
         #  os: "{{ your_os }}"
         #  hardware: "{{ your_hardware }}"
-        ipmi_authtype: 2
-        ipmi_privilege: 4
-        ipmi_username: username
-        ipmi_password: password
-        interfaces:
-          - type: list
-          - suboptions: 2
+        #  ipmi_authtype: 2
+        #  ipmi_privilege: 4
+        #  ipmi_username: username
+        #  ipmi_password: password
+        #  interfaces:
+          #  - type: list
+          #  - suboptions: 2
            
          # - type: 4
          #   main: 1
